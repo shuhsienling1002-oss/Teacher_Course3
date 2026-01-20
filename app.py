@@ -246,7 +246,7 @@ def show_quiz_mode():
         st.markdown("**第 2 關：新年快樂**")
         st.markdown("請完成句子：")
         st.markdown("""
-        <div style="background:#fff; padding:15px; border-radius:10px; border-left: 5px solid #D32F2F; margin: 10px 0;">
+        <div style="background:#fff; color:#000000; padding:15px; border-radius:10px; border-left: 5px solid #D32F2F; margin: 10px 0;">
             <span style="font-size:18px;">Nanay <b>_______</b> ko fa'elohay a mihecaan!</span>
             <br><span style="color:#999; font-size:14px;">(祝你新年快樂！)</span>
         </div>
@@ -319,3 +319,4 @@ with tab1:
 
 with tab2:
     show_quiz_mode()
+
