@@ -124,7 +124,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- 1. 數據結構 (完整收錄) ---
+# --- 1. 數據結構 (已更新標點符號) ---
 
 # 單字表 (5個)
 VOCABULARY = [
@@ -135,13 +135,13 @@ VOCABULARY = [
     {"amis": "Lipahak",  "zh": "快樂",        "emoji": "😄", "action": "拍手笑",       "file": "lipahak"},
 ]
 
-# 句子表 (5句)
+# 句子表 (5句，加上標點)
 SENTENCES = [
-    {"amis": "O maan sa'eto fangcal",            "zh": "什麼都好",     "file": "s_omaan"},
-    {"amis": "Tangsol fangcal",                  "zh": "馬上就好",     "file": "s_tangsol_fangcal"},
-    {"amis": "Tangsol si payso",                 "zh": "馬上有錢",     "file": "s_tangsol_payso"},
-    {"amis": "Malaheci'ay ko tayal",             "zh": "事業成功",     "file": "s_tayal"},
-    {"amis": "Nanay lipahak ko fa'elohay a mihecaan", "zh": "新年快樂", "file": "s_newyear"},
+    {"amis": "O maan sa'eto fangcal.",            "zh": "甚麼都好。",     "file": "s_omaan"},
+    {"amis": "Tangsol fangcal.",                  "zh": "馬上就好。",     "file": "s_tangsol_fangcal"},
+    {"amis": "Tangsol si payso.",                 "zh": "馬上有錢。",     "file": "s_tangsol_payso"},
+    {"amis": "Malaheci'ay ko tayal.",             "zh": "事業成功。",     "file": "s_tayal"},
+    {"amis": "Nanay lipahak ko fa'elohay a mihecaan!", "zh": "新年快樂！", "file": "s_newyear"},
 ]
 
 # --- 1.5 智慧語音核心 ---
@@ -247,8 +247,8 @@ def show_quiz_mode():
         st.markdown("請完成句子：")
         st.markdown("""
         <div style="background:#fff; padding:15px; border-radius:10px; border-left: 5px solid #D32F2F; margin: 10px 0;">
-            <span style="font-size:18px;">Nanay <b>_______</b> ko fa'elohay a mihecaan.</span>
-            <br><span style="color:#999; font-size:14px;">(祝你新年快樂)</span>
+            <span style="font-size:18px;">Nanay <b>_______</b> ko fa'elohay a mihecaan!</span>
+            <br><span style="color:#999; font-size:14px;">(祝你新年快樂！)</span>
         </div>
         """, unsafe_allow_html=True)
         
